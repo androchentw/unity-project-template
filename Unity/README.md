@@ -1,0 +1,97 @@
+## Folder Structure
+
+Note: ignored `*.meta`, `*.asset`  
+
+```text
+Unity/
+├── Assets/
+    ├── 3rdParty/
+        ├── [CompanyName]/
+            ├── [PackageName]/
+                ├── Version.txt
+    ├── Art/
+        ├── Animation/
+            ├── AnimationClips/
+            ├── Animators/
+        ├── Audio/
+            ├── AudioClips/
+            ├── AudioMixers/
+        ├── Fonts/
+            ├── Arial.ttf
+        ├── Materials/
+            ├── FloorMaterial.mat
+            ├── PlayerMaterial.mat
+        ├── Models/
+        ├── Shaders/
+        ├── Sprites/
+        ├── Textures/
+            ├── FloorTexture.png
+    ├── Documentation/
+        ├── Images/
+            ├── BestPractices.png
+        ├── ReadMe/
+            ├── Art/
+                ├── Sprites/
+                    ├── ProjectIcon.png
+            ├── Scripts/
+                ├── Editor/
+                    ├── ReadMeMenuItems.cs
+    ├── Prefabs/
+        ├── RMC/
+            ├── [MyProject]/
+                ├── AudioManager.prefab
+    ├── Resources/
+        ├── RMC/
+            ├── [MyProject]/
+    ├── Scenes/
+        ├── Scene01_Intro.unity
+    ├── Scripts/
+        ├── Editor/
+            ├── RMC/
+                ├── Templates/
+                    ├── TemplateEditorMenuItems.cs
+                ├── [MyProject]/
+        ├── Runtime/
+            ├── RMC/
+                ├── Templates/
+                    ├── ITemplateInterface.cs
+                    ├── TemplateClass.cs
+                    ├── TemplateComponent.cs
+                    ├── TemplateScriptableObject.cs
+                ├── [MyProject]/
+                    ├── Scenes/
+                        ├── Scene01_Intro.cs
+                    ├── UI/
+                        ├── HudUI.cs
+        ├── Tests/
+            ├── Editor/
+                ├── RMC/
+                    ├── Templates/
+                        ├── TemplateClassEditModeTest.cs
+                    ├── [MyProject]/
+            ├── Runtime/
+                ├── RMC/
+                    ├── Templates/
+                        ├── TemplateComponentPlayModeTest.cs
+                    ├── [MyProject]/
+    ├── Settings/
+        ├── Audio/
+        ├── InputSystem/
+        ├── PhysicMaterials/
+        ├── Presets/
+        ├── ProBuilder/
+        ├── Rendering/
+        ├── UIToolkit/
+            ├── Layouts/
+                ├── TemplateLayout.uxml
+            ├── Resources/
+            ├── Settings/
+            ├── Styles/
+                ├── TemplateStyles.uss
+            ├── Themes/
+                ├── TemplateThemeStyleSheet.tss
+├── Packages/
+    ├── manifest.json
+    └── packages-lock.json
+├── ProjectSettings/
+```
